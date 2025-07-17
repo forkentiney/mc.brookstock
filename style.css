@@ -206,7 +206,7 @@ img {
 /*IMAGE CLASSES*/
 
 .bg-image {
-	background-image: url("/content/dynmap.png");
+	background-image: url("static/images/dynmap.png");
 	background-color: #11183c;
 	background-attachment: fixed;
 	background-size: cover;
@@ -226,7 +226,7 @@ img {
 }
 
 .hero-image  {
-	background-image: url("/content/banner.png");
+	background-image: url("static/images/banner.png");
 	background-color: #11183c;
 	height: 200px;
 	background-position: center;
