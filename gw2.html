@@ -1,0 +1,44 @@
+<html>
+<body>
+
+<h2>Guild Wars 2 Static RSVP</h2>
+
+<form 
+  method="POST" 
+  action="https://script.google.com/macros/s/AKfycbx1VbdUFTrP35csyq-NPCO5iZHtBih6vryDkiMvpB5OcD0Nv2MvC_Y3rYt9YnNLSDUiUQ/exec"
+>
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" placeholder="Name" required><br>
+  
+  <label for="date_session">Date of Session:</label><br>
+  <input type="date" id="date_session" name="date_session" required><br><br>
+  
+  <label for="rsvp">Attendance:</label><br>
+  <input type="radio" id="yes" name="rsvp" value="yes" required>
+  <label for="yes">Yes, I plan on attending</label><br>
+  <input type="radio" id="no" name="rsvp" value="no">
+  <label for="no">No, I do not plan on attending</label><br><br>
+  
+  <label for="opt1">Activity Interests (not required):</label><br>
+  <input type="checkbox" id="opt1" name="opt1" value="meta">
+  <label for="opt1"> Open World/Metas </label><br>
+  <input type="checkbox" id="opt2" name="opt2" value="pvp">
+  <label for="opt2"> PvP </label><br>
+  <input type="checkbox" id="opt3" name="opt3" value="wvw">
+  <label for="opt3"> WvW </label><br>
+  <input type="checkbox" id="opt4" name="opt4" value="dungeon">
+  <label for="opt4"> Dungeons </label><br>
+  <input type="checkbox" id="opt5" name="opt5" value="fractal">
+  <label for="opt5"> Fractals </label><br>
+  <input type="checkbox" id="opt6" name="opt6" value="raid">
+  <label for="opt6"> Raids/Strikes </label><br>
+  <input type="checkbox" id="opt7" name="opt7" value="unlock">
+  <label for="opt7"> Achievements/Unlocks </label><br>
+  <input type="checkbox" id="opt8" name="opt8" value="story">
+  <label for="opt8"> Story Completion </label><br><br>
+  
+  <button type="submit">Submit</button>
+</form> 
+
+</body>
+</html>
