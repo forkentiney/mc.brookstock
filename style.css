@@ -244,6 +244,7 @@ img {
 	font-variant: small-caps;
 	font-family: Garamond, serif;
 	border: 2px solid #ffff17;
+	border-radius: 5px;
 	outline: none;
 	padding: 8px; 
 	color: #ffffff;
