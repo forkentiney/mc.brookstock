@@ -208,7 +208,7 @@ img {
 /*IMAGE CLASSES*/
 
 .bg-image {
-	background-image: url("static/images/dynmap.png");
+	background-image: url("static/images/cathedral.png");
 	background-color: #11183c;
 	background-attachment: fixed;
 	background-size: cover;
