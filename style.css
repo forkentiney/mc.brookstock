@@ -52,7 +52,7 @@ a {
 }
 
 a:hover {
-	color: #ffff17;
+	color: #FFBCE4;
 }
 	
 li {
@@ -118,10 +118,6 @@ img {
 	text-decoration: none;
 }
 
-.topnav a:hover {
-	color: #ffff17;
-}
-
 .credit,
 .footer {
 	display: flex;
@@ -159,15 +155,15 @@ img {
 	font-size: 18px;
 	font-variant: small-caps;
 	font-family: Garamond, serif;
-	border: 2px solid #ffff17;
+	border: 2px solid #FFBCE4;
 	border-radius: 5px;
 	outline: none;
 	padding: 8px; 
-	background-color: #11183c; 
+	background-color: #0B132B; 
 }
 
 .button:hover {
-	background-color: #263688;
+	background-color: #B24C63;
 }
 	
 @media (max-width: 800px) {
