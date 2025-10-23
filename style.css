@@ -86,7 +86,7 @@ img {
 	display: flex;
 	flex-direction: column;
 	top: 10rem;
-	margin: 25px;
+	padding: 0px 25px;
 	grid-column: 3;
 }
 
