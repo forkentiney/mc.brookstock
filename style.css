@@ -137,6 +137,7 @@ img {
 .footer {
 	justify-content: flex-end;
 	border-top: 2px solid black;
+	margin-top: 25px;
 }
 
 .footer img {
