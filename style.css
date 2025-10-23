@@ -136,6 +136,7 @@ img {
 
 .footer {
 	justify-content: flex-end;
+	border-top: 2px solid black;
 }
 
 .footer img {
@@ -145,11 +146,11 @@ img {
 }
 
 .bg-image {
-	background-image: url("static/images/cathedral.png");
-	background-color: #11183c;
+	background-image: url("static/background.webp");
+	background-color: #5D83B2;
 	background-attachment: fixed;
 	background-size: cover;
-	background-position: center;
+	background-position: left;
 }
 
 .button {
